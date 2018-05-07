@@ -6,11 +6,30 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="easy" tagdir="/WEB-INF/tags" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>Product Details</title>
 </head>
 <body>
-$END$
+<easy:invokeDemo>
+    <jsp:attribute name="productDetails">
+                <table width="220" border="1">
+                    <tr>
+                        <td><b>Product Name</b></td>
+                        <td>${productName}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Description</b></td>
+                        <td>${description}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Price</b></td>
+                        <td>${price}</td>
+                    </tr>
+                </table>
+
+    </jsp:attribute>
+</easy:invokeDemo>
 </body>
 </html>

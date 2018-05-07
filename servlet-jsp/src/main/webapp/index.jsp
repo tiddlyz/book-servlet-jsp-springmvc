@@ -29,6 +29,25 @@
         <li>Chapter 5
             <ul>
                 <li><a href="books">Book List</a></li>
+                <li><a href="bigCities">Big Cities</a> </li>
+            </ul>
+        </li>
+        <li>Chapter 6
+            <ul>
+                <li><a href="app06a/firstTagTest.jsp">Testing my first tag</a></li>
+                <li><a href="app06a/dataFormatterTagTest.jsp">DataFormatterTag</a></li>
+                <li><a href="app06a/selectElementTag.jsp">selectElementTagTest</a></li>
+                <li><a href="app06b/reverseStringFunctionTest.jsp">EL Function</a></li>
+            </ul>
+        </li>
+        <li>Chapter 7
+            <ul>
+                <li><a href="app07a/firstTagTest.jsp">First Tag Test</a></li>
+                <li><a href="app07a/includeDemoTagTest.jsp">Include DemoTag Test</a></li>
+                <li><a href="app07a/taglibDemoTest.jsp">Taglib Demo Test</a></li>
+                <li><a href="app07a/varDemoTest.jsp">Variable Demo Test</a></li>
+                <li><a href="app07a/searchEngine.html">doBody Demo Test</a></li>
+                <li><a href="app07a/invokeTest.jsp">invoke test</a></li>
             </ul>
         </li>
     </ul>

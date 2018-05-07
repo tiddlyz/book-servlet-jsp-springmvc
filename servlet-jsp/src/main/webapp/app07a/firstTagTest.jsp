@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>FirstTag Test</title>
 </head>
 <body>
-$END$
+<%@ taglib prefix="easy" tagdir="/WEB-INF/tags" %>
+Today is <easy:firstTag/>
 </body>
 </html>

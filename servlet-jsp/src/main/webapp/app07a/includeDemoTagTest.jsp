@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>Include DemoTag Test</title>
 </head>
 <body>
-$END$
+<%@ taglib prefix="easy" tagdir="/WEB-INF/tags" %>
+<easy:includeDemoTag></easy:includeDemoTag>
 </body>
 </html>

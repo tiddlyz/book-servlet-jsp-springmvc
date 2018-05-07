@@ -6,11 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="easy" uri="/WEB-INF/mytags.tld" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>Testing SelectElementFormatterTag</title>
 </head>
 <body>
-$END$
+<easy:select>
+    <option value="${value}">${text}</option>
+</easy:select>
+
 </body>
 </html>
