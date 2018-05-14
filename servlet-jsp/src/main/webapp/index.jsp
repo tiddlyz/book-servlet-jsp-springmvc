@@ -50,6 +50,12 @@
                 <li><a href="app07a/invokeTest.jsp">invoke test</a></li>
             </ul>
         </li>
+        <li>Chapter 8
+            <ul>
+                <li><a href="app08a/countries.jsp">Country List</a></li>
+
+            </ul>
+        </li>
     </ul>
 </body>
 </html>
